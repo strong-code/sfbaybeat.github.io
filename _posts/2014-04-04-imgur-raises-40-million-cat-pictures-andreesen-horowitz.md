@@ -2,14 +2,14 @@
 layout: post
 title: Imgur Raises 40 Million Cat Pictures from Andreesen Horowitz
 date: 2014-04-04T10:42:49+0000
+dateline: San Francisco, CA
 lead:
     image: http://i.imgur.com/MQHYB.jpg
     caption: One of the pre-existing cat pictures on Imgur.
 ---
 
-SAN FRANCISCO, CA—Bootstrapped San Francisco startup Imgur has raised 40 million
-cat pictures in its Series A funding round from venture capital firm Andreesen
-Horowitz.
+Bootstrapped San Francisco startup Imgur has raised 40 million cat pictures in
+its Series A funding round from venture capital firm Andreesen Horowitz.
 
 Imgur, for those who are unfamiliar with the site, was originally a popular
 companion website to libertarian think tank Reddit, providing their users with a

@@ -77,6 +77,14 @@ time {
     color: #888;
 }
 
+.dateline {
+    text-transform: uppercase;
+}
+
+.dateline:after {
+    content: "—";
+}
+
 .image {
     background-repeat: no-repeat;
     background-position: center center;

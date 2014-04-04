@@ -2,16 +2,17 @@
 layout: post
 title: Mozilla Pulls the Plug on JavaScript
 date: 2014-04-04T07:05:25+0000
+dateline: Mountain View, CA
 lead:
     image: /img/rockem-sockem.jpg
     caption: Dramatization of the internet's feud with Mozilla.
 ---
 
-MOUNTAIN VIEW, CA—After JavaScript's almost twenty-year-long tenure as the web's
-one and only programming language for browsers, its creator, Mozilla, has
-decided to cease all support and development on the language. This reaction
-comes in the wake of developers who called for a boycott of Mozilla products
-after finally realizing that JavaScript is, in fact, pants-on-head stupid.
+After JavaScript's almost twenty-year-long tenure as the web's one and only
+programming language for browsers, its creator, Mozilla, has decided to cease
+all support and development on the language. This reaction comes in the wake of
+developers who called for a boycott of Mozilla products after finally realizing
+that JavaScript is, in fact, pants-on-head stupid.
 
 A formal statement was issued on Thursday by the chairperson of the Mozilla
 board:

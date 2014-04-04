@@ -13,7 +13,7 @@ layout: default
         </ul>
     </aside>
 
-    <article itemscope itemtype="http://schema.org/BlogPosting" class="col-sm-9">
+    <article itemscope itemtype="http://schema.org/NewsArticle" class="col-sm-9">
         <header>
             <h1 itemprop="headline">{{ page.title }}</h1>
             <time datetime="{{ page.date | date:"%FT%T%z" }}" pubdate itemprop="datePublished">{{ page.date | date:"%b %d, %Y" }}</time>
@@ -23,7 +23,8 @@ layout: default
                 <div class="image" style="background-image: url('{{ page.lead.image }}')"></div>
                 <figcaption>{{ page.lead.caption }}</figcaption>
             </figure>
-            {{ content }}
+            {% capture repl %}<p><span class="dateline" itemprop="dateline">{{ page.dateline }}</span>{% endcapture %}
+            {{ content | replace_first: "<p>", repl }}
             <hr>
             <h2>Related News</h2>
             <ul>
