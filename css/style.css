@@ -1,5 +1,6 @@
 body {
-    font-size: 12pt;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 300;
 }
 
 hr {
@@ -7,17 +8,23 @@ hr {
 }
 
 h1, h2, h3, h4, h5, h6 {
-    font-family: Georgia, Times, serif;
     margin: 10px 0;
+    font-weight: 300;
 }
 
-body > .container > header h1 {
-    font-style: italic;
+h1 small {
+    font-weight: 300;
 }
 
 body > .container > header {
     text-align: center;
     padding: 10px 0;
+}
+
+.logo {
+    height: 42px;
+    width: 42px;
+    vertical-align: text-top;
 }
 
 body > .container > footer {
@@ -26,6 +33,7 @@ body > .container > footer {
     padding: 10px 0;
     color: #aaa;
     font-size: 10pt;
+    margin-top: 10px;
 }
 
 body > .container > nav {
@@ -66,7 +74,6 @@ article > header {
 }
 
 time {
-    font-weight: bold;
     color: #888;
 }
 
@@ -93,8 +100,10 @@ figure.lead .image {
 
 figure.lead figcaption {
     font-size: 10pt;
-    color: #888;
-    font-weight: normal;
+    color: #fff;
+    background: #000;
+    padding: 5px 10px;
+    font-weight: 300;
 }
 
 .search-results .entries {
