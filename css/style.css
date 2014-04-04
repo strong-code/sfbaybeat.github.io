@@ -65,7 +65,7 @@ body > .container > nav input[type="search"] {
 }
 
 .recent-news li {
-    padding: 10px 20px;
+    padding: 10px 0;
     border-bottom: 1px solid #ccc;
 }
 
