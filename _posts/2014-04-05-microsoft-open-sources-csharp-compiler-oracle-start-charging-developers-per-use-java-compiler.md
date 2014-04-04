@@ -25,5 +25,5 @@ announced that it now be solely distributing the Java 8 compiler on a set of
 3.5-inch floppies, accompanied with a hard-copy instruction manual and
 holographic license key sticker.
 
-Oracle also continues an ongoing lawsuit against OpenJDK for infringement of its
-copyright on the entirety of the Java API.
+Oracle also continues an ongoing lawsuit against OpenJDK for infringement of the
+enterprise company's copyright on the entirety of the Java API.
