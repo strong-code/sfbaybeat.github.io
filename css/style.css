@@ -24,7 +24,6 @@ body > .container > header {
 .logo {
     height: 42px;
     width: 42px;
-    vertical-align: text-top;
 }
 
 body > .container > footer {
