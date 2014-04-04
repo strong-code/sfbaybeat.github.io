@@ -27,6 +27,6 @@ the near future, Schaaf responded, "We could really use a few more bean bags."
 
 This funding comes hot on the heels of high-profile attempted deals with other
 social media startups earlier this year. Facebook's acquisition of Snapchat for
-3 billion selfies fell through in February, but later succeeded at acquiring
-WhatsApp for 16 billion in real money and 3 billion in imaginary handwavey
-money.
+3 billion selfies fell through in February, but later had success with at the
+acquisition of WhatsApp for 16 billion in real money and 3 billion in imaginary
+handwavey money.
