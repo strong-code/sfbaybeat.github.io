@@ -15,7 +15,7 @@ layout: none
             <description>{{ post.content | xml_escape }}</description>
             <pubDate>{{ post.date | date_to_xmlschema }}</pubDate>
             <link>http://{{ site.url }}{{ post.url }}</link>
-            <guid isPermaLink="true">{{ site.url }}{{ post.url }}</guid>
+            <guid isPermaLink="true">http://{{ site.url }}{{ post.url }}</guid>
             </item>
         {% endunless %}
         {% endfor %}
