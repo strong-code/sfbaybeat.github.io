@@ -3,3 +3,5 @@ description: The Pulse of the Startup Nation
 url: sfbaybeat.com
 lsi: true
 markdown: kramdown
+paginate: 5
+paginate_path: "archive/:num"

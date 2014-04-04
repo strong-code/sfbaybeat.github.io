@@ -1,8 +1,8 @@
 <article itemscope itemtype="http://schema.org/NewsArticle">
     <header>
-        {% if include.post.lead %}
+        {% if include.post.lead %}{% unless include.no_lead %}
             <a class="image" style="background-image: url('{{ include.post.lead.image }}')" href="{{ include.post.url }}"></a>
-        {% endif %}
+        {% endunless %}{% endif %}
         <h2 itemprop="headline"><a href="{{ include.post.url }}">{{ include.post.title }}</a></h2>
         <time datetime="{{ include.post.date | date:"%FT%T%z" }}" pubdate itemprop="datePublished">{{ include.post.date | date:"%b %d, %Y" }}</time>
     </header>

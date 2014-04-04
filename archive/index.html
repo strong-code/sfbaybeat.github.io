@@ -1,0 +1,21 @@
+---
+layout: default
+---
+
+
+<div class="row">
+    <div class="col-sm-12">
+        <ul class="articles">
+            {% for post in paginator.posts %}
+                <li>{% include entry.html post=post no_lead=true %}</li>
+            {% endfor %}
+        </ul>
+
+        {% if paginator.total_pages > 1 %}
+        <ul class="pager">
+            <li class="previous{% unless paginator.previous_page %} disabled{% endunless %}"><a href="{{ paginator.previous_page_path }}">← Older</a></li>
+            <li class="next{% unless paginator.next_page %} disabled{% endunless %}"><a href="{{ paginator.next_page_path }}">Newer →</a></li>
+        </ul>
+        {% endif %}
+    </div>
+</div>
