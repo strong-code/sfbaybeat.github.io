@@ -113,13 +113,13 @@ figure.lead figcaption {
 
 /* totally invalid html here, but lunr hardcodes this */
 .search-results .entries p {
-    padding: 0 20px;
+    padding: 20px 0;
 }
 
 .search-results .entries > li,
 .articles > li {
     border-bottom: 1px solid #ccc;
-    padding: 10px 20px;
+    padding: 10px 0;
 }
 
 .search-results .entries > li:last-child,
