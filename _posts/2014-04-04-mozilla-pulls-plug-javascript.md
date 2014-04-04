@@ -4,7 +4,7 @@ title: Mozilla Pulls the Plug on JavaScript
 date: 2014-04-04T07:05:25+0000
 dateline: Mountain View, CA
 lead:
-    image: /img/rockem-sockem.jpg
+    image: http://i.imgur.com/lCqQyVn.jpg
     caption: Dramatization of the internet's feud with Mozilla.
 ---
 
