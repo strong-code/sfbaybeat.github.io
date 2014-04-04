@@ -1,0 +1,21 @@
+---
+layout: default
+---
+
+<div class="row">
+    <div class="col-sm-8">
+        <ul class="articles">
+            {% for post in site.posts limit: 5 %}
+                <li>{% include entry.html post=post %}</li>
+            {% endfor %}
+        </ul>
+    </div>
+
+    <div class="col-sm-4">
+        <ul class="articles">
+            {% for post in site.posts limit: 5 offset: 5 %}
+                <li>{% include entry.html post=post %}</li>
+            {% endfor %}
+        </ul>
+    </div>
+</div>

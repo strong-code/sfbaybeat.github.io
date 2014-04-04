@@ -1,0 +1,31 @@
+<!doctype html>
+<html>
+    <head>
+        <title>{% if page.title %}{{ page.title | markdownify | strip_html }} | {% endif %}{{ site.name }} — {{ site.description }}</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
+        <link rel="stylesheet" href="/css/style.css">
+        <script src="/js/search.min.js"></script>
+    </head>
+    <body><div class="container">
+        <header>
+            <h1><a href="/">{{ site.name }}</a><br><small>{{ site.description }}</small></h1>
+        </header>
+
+        <nav>
+            <ul class="clearfix">
+                <li class="pull-right">
+                    <form action="/search.html" method="GET">
+                        <input type="search" placeholder="Search" name="q">
+                    </form>
+                </li>
+            </ul>
+        </nav>
+
+        {{ content }}
+
+        <footer>
+            Copyright © SF Bay Beat, est. 2014. News is provided "as is", without guarantee of any kind, express or implied.
+        </footer>
+    </div></body>
+</html>
