@@ -1,7 +1,7 @@
 <article itemscope itemtype="http://schema.org/BlogPosting">
     <header>
         {% if include.post.lead %}
-            <div class="image" style="background-image: url('{{ include.post.lead.image }}')"></div>
+            <a class="image" style="background-image: url('{{ include.post.lead.image }}')" href="{{ include.post.url }}"></a>
         {% endif %}
         <h2 itemprop="headline"><a href="{{ include.post.url }}">{{ include.post.title }}</a></h2>
         <time datetime="{{ include.post.date | date:"%FT%T%z" }}" pubdate itemprop="datePublished">{{ include.post.date | date:"%b %d, %Y" }}</time>
