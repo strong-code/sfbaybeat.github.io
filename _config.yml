@@ -1,8 +1,4 @@
 name: SF Bay Beat
 description: The Pulse of Startup Nation
 url: http://sfbaybeat.com
-
-maruku:
-    use_divs: true
-
 lsi: true
