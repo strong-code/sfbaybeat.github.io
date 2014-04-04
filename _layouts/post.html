@@ -19,10 +19,12 @@ layout: default
             <time datetime="{{ page.date | date:"%FT%T%z" }}" pubdate itemprop="datePublished">{{ page.date | date:"%b %d, %Y" }}</time>
         </header>
         <div itemprop="articleBody">
+            {% if page.lead %}
             <figure class="lead">
                 <div class="image" style="background-image: url('{{ page.lead.image }}')"></div>
                 <figcaption>{{ page.lead.caption }}</figcaption>
             </figure>
+            {% endif %}
             {% capture repl %}<p><span class="dateline" itemprop="dateline">{{ page.dateline }}</span>{% endcapture %}
             {{ content | replace_first: "<p>", repl }}
             <hr>
