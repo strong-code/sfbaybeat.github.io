@@ -11,8 +11,8 @@ lead:
 
 Microsoft has announced that it will be open sourcing its .NET compiler platform
 at the Build 2014 conference on Thursday. This follows from Microsoft's previous
-open source initiatives which released the code to other widely-used products
-such as ASP.NET MVC, MS-DOS 1.0 and Word for Windows 1a.
+open source initiatives which released the code for other widely-used products
+such as ASP.NET MVC, MS-DOS 1.0, and Word for Windows 1a.
 
 Followers of open source leader and man who cannot find his beard razor Richard
 Stallman were not entirely satisfied with the news, citing vague concerns of
