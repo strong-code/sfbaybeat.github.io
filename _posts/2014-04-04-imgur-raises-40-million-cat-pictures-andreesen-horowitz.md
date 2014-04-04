@@ -11,7 +11,7 @@ SAN FRANCISCO, CA—Bootstrapped San Francisco startup Imgur has raised 40 milli
 cat pictures in its Series A funding round from venture capital firm Andreesen
 Horowitz.
 
-Imgur, for those who don't unfamiliar with the site, was originally a popular
+Imgur, for those who are unfamiliar with the site, was originally a popular
 companion website to libertarian think tank Reddit, providing their users with a
 platform to share "memes" — a series of animal pictures with superimposed text
 that described the epitomes of first-world problems. Since then, Imgur has
