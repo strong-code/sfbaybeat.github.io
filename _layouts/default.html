@@ -20,7 +20,8 @@
         <nav>
             <ul class="clearfix">
                 <li class="pull-right">
-                    <form action="/search.html" method="GET">
+                    <form action="https://www.google.com/search" method="GET">
+                        <input type="hidden" name="q" value="site:{{ site.url }}">
                         <input type="search" placeholder="Search" name="q">
                     </form>
                 </li>
