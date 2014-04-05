@@ -13,8 +13,9 @@ Creator of high-profile online trading card trading post MtGox Mark Karpeles has
 announced the recovery of 200,000 trading cards from underneath his zabuton.
 
 Earlier this month, MtGox announced the loss of 850,000 _Magic: The Gathering_
-cards to due "cardboard malleability", leading to a subsequent shutdown of the
-exchange and filing for bankruptcy.
+cards to due "cardboard malleability", an unforeseen technical issue where
+cards could lose their value after permanent creasing. This issue has apparently
+led to a subsequent shutdown of the exchange and its filing for bankruptcy.
 
 The shutdown had dealt a heavy blow to the _Magic: The Gathering_ industry, with
 investors now uncertain of the alternative trading card's fate. Proponents of
