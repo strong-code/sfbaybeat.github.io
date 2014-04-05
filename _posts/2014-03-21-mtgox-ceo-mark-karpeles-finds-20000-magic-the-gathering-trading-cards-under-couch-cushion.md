@@ -28,4 +28,4 @@ spokesperson from competing exchange, ManaDesk. "This has really undermined the
 trust people were gaining in a viable alternative to fiat cards; in
 democratizing a domain previously dominated by casino-controlled playing cards."
 
-Among the recovered assets were fragments of the card "Chaos Confetti".
+Among the recovered assets were fragments of the card "Chaos Confetti."

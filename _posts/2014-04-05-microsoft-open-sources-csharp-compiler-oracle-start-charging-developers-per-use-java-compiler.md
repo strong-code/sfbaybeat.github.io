@@ -16,11 +16,11 @@ such as ASP.NET MVC, MS-DOS 1.0, and Word for Windows 1a.
 
 Followers of open source leader and man who cannot find his beard razor Richard
 Stallman were not entirely satisfied with the news, citing vague concerns of
-the lack of freedoms and still opting to call Microsoft "Micro$oft".
+the lack of freedoms and still opting to call Microsoft "Micro$oft."
 
 Microsoft's move did not go unnoticed by competitor Oracle, with their CEO
 Larry Ellison comparing the open source movement to communism and a "cancer"
-that "attaches itself ... to everything it touches". In response, Oracle has
+that "attaches itself ... to everything it touches." In response, Oracle has
 announced that it now be solely distributing the Java 8 compiler on a set of
 3.5-inch floppies, accompanied with a hard-copy instruction manual and
 holographic license key sticker.
