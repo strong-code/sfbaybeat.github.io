@@ -5,7 +5,7 @@ title: Microsoft Open Sources C# Compiler, Oracle to Start Charging Developers
 date: 2014-04-05T00:52:47+0000
 dateline: San Francisco, CA
 lead:
-    image: http://i.imgur.com/5X3jvvJ.png
+    image: http://i.imgur.com/DmzW72Q.png
     caption: Example of C# code, displayed in an IDE.
 ---
 

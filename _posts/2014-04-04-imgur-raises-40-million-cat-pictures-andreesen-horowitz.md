@@ -4,7 +4,7 @@ title: Imgur Raises 40 Million Cat Pictures from Andreesen Horowitz
 date: 2014-04-04T10:42:49+0000
 dateline: San Francisco, CA
 lead:
-    image: http://i.imgur.com/MQHYB.jpg
+    image: http://i.imgur.com/uGSDVh9.jpg
     caption: One of the pre-existing cat pictures on Imgur.
 ---
 
