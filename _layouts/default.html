@@ -26,20 +26,19 @@
             </h1>
         </header>
 
-        <nav>
-            <ul class="clearfix">
+        <nav class="row">
+            <ul class="col-sm-9">
                 <li><a href="/archive">Archive</a></li>
-                <li class="pull-right">
-                    <form action="https://www.google.com/search" method="GET">
-                        <input type="hidden" name="q" value="site:{{ site.url }}">
-                        <input type="search" placeholder="Search" name="q">
-                    </form>
-                </li>
-                <li class="pull-right"><a href="mailto:editor@sfbaybeat.com"><i class="fa fa-envelope"></i></a></li>
-                <li class="pull-right"><a href="https://facebook.com/pages/SF-Bay-Beat/613668795381781"><i class="fa fa-facebook"></i></a></li>
-                <li class="pull-right"><a href="https://twitter.com/sfbaybeat"><i class="fa fa-twitter"></i></a></li>
-                <li class="pull-right"><a href="/feed.xml"><i class="fa fa-rss"></i></a></li>
+                <li><a href="mailto:editor@sfbaybeat.com"><i class="fa fa-envelope"></i></a></li>
+                <li><a href="https://facebook.com/pages/SF-Bay-Beat/613668795381781"><i class="fa fa-facebook"></i></a></li>
+                <li><a href="https://twitter.com/sfbaybeat"><i class="fa fa-twitter"></i></a></li>
+                <li><a href="/feed.xml"><i class="fa fa-rss"></i></a></li>
             </ul>
+
+            <form class="col-sm-3" action="https://www.google.com/search" method="GET">
+                <input type="hidden" name="q" value="site:{{ site.url }}">
+                <input type="search" placeholder="Search" name="q">
+            </form>
         </nav>
 
         {{ content }}
