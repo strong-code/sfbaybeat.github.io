@@ -41,7 +41,6 @@ body > .container > footer {
     padding: 10px 0;
     color: #aaa;
     font-size: 10pt;
-    margin-top: 10px;
 }
 
 body > .container > nav {
@@ -119,9 +118,11 @@ figure.lead .image {
 figure.lead figcaption {
     font-size: 10pt;
     color: #fff;
-    background: #000;
+    background: rgba(0, 0, 0, 0.5);
     padding: 5px 10px;
     font-weight: 300;
+    height: 30px;
+    margin-top: -30px;
 }
 
 article {

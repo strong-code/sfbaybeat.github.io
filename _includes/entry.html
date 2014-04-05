@@ -3,7 +3,7 @@
         {% if include.post.lead %}{% unless include.no_lead %}
             <a class="image" style="background-image: url('{{ include.post.lead.image }}')" href="{{ include.post.url }}"></a>
         {% endunless %}{% endif %}
-        <h2 itemprop="headline"><a href="{{ include.post.url }}">{{ include.post.title }}</a></h2>
+        <h2 itemprop="headline"><a href="{{ include.post.url }}">{{ include.post.title | markdownify | remove:"<p>" | remove:"</p>" }}</a></h2>
         <time datetime="{{ include.post.date | date:"%FT%T%z" }}" pubdate itemprop="datePublished">{{ include.post.date | date:"%b %d, %Y" }}</time>
     </header>
     <div>{{ include.post.excerpt | markdownify }}</div>

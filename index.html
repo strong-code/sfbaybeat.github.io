@@ -3,7 +3,7 @@ layout: default
 ---
 
 <div class="row">
-    <div class="col-sm-8">
+    <div class="col-sm-7">
         <ul class="articles">
             {% for post in site.posts limit: 2 %}
                 <li>{% include entry.html post=post %}</li>
@@ -11,7 +11,7 @@ layout: default
         </ul>
     </div>
 
-    <div class="col-sm-4">
+    <div class="col-sm-5">
         <ul class="articles">
             {% for post in site.posts limit: 2 offset: 2 %}
                 <li>{% include entry.html post=post %}</li>
