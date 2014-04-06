@@ -13,8 +13,8 @@ layout: default
 
         {% if paginator.total_pages > 1 %}
         <ul class="pager">
-            <li class="previous{% unless paginator.previous_page %} disabled{% endunless %}"><a href="{{ paginator.previous_page_path }}">← Older</a></li>
-            <li class="next{% unless paginator.next_page %} disabled{% endunless %}"><a href="{{ paginator.next_page_path }}">Newer →</a></li>
+            <li class="next{% unless paginator.next_page %} disabled{% endunless %}"><a href="{{ paginator.next_page_path }}">← Older</a></li>
+            <li class="previous{% unless paginator.previous_page %} disabled{% endunless %}"><a href="{{ paginator.previous_page_path }}">Newer →</a></li>
         </ul>
         {% endif %}
     </div>
