@@ -8,7 +8,7 @@ layout: default
             {% for post in site.posts limit: 10 %}
             <li>
                 <a class="{% if page.url == post.url %}disabled{% endif %}" href="{{ post.url }}">{{ post.title | markdownify | remove:"<p>" | remove:"</p>" }}</a><br>
-                <time datetime="{{ post.date | date:"%FT%T%z" }}" pubdate itemprop="datePublished">{{ post.date | date:"%b %d, %Y" }}</time>
+                <time datetime="{{ post.date | date:"%FT%T%z" }}" itemprop="datePublished">{{ post.date | date:"%b %d, %Y" }}</time>
             </li>
             {% endfor %}
         </ul>
@@ -17,7 +17,7 @@ layout: default
     <article itemscope itemtype="http://schema.org/NewsArticle" class="col-md-9">
         <header>
             <h1 itemprop="headline">{{ page.title | markdownify | remove:"<p>" | remove:"</p>" }}</h1>
-            <time datetime="{{ page.date | date:"%FT%T%z" }}" pubdate itemprop="datePublished">{{ page.date | date:"%b %d, %Y" }}</time>
+            <time datetime="{{ page.date | date:"%FT%T%z" }}" itemprop="datePublished">{{ page.date | date:"%b %d, %Y" }}</time>
         </header>
         <div itemprop="articleBody">
             {% if page.lead %}
@@ -35,7 +35,7 @@ layout: default
                 {% if post.url != page.url %}
                     <li>
                         <a href="{{ post.url }}">{{ post.title | markdownify | remove:"<p>" | remove:"</p>" }}</a>
-                        <time datetime="{{ post.date | date:"%FT%T%z" }}" pubdate itemprop="datePublished">{{ post.date | date:"%b %d, %Y" }}</time>
+                        <time datetime="{{ post.date | date:"%FT%T%z" }}" itemprop="datePublished">{{ post.date | date:"%b %d, %Y" }}</time>
                     </li>
                 {% endif %}
             {% endfor %}
