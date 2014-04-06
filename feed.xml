@@ -11,7 +11,7 @@ layout: none
         {% for post in site.posts %}
             {% unless post.link %}
             <item>
-                <title>{{ post.title }}</title>
+                <title>{{ post.title | markdownify | remove:"<p>" | remove:"</p>" }}</title>
                 <description>{{ post.content | xml_escape }}</description>
                 <pubDate>{{ post.date | date_to_xmlschema }}</pubDate>
                 <link>http://{{ site.url }}{{ post.url }}</link>
