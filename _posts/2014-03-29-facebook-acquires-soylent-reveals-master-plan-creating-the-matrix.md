@@ -21,7 +21,7 @@ leave their news feeds—a fully immersive social experience.
 
 "Now we will be able to deliver more meaningful information in interactions with
 Facebook messages. For instance, we'll now be able to differentiate between
-whether a message was seen and not replied to because they hate you or if
+whether a message was seen and not replied to because they hate you, or if
 they were just lazy."
 
 Privacy experts on Reddit slammed the move, calling it "Orwellian, dystopian and
