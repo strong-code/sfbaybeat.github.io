@@ -10,9 +10,9 @@ lead:
              bug with a logo.
 ---
 
-A team of security engineers at Codenomicon, one security engineer at Google and
-no security engineers at Yahoo! discovered a critical bug in OpenSSL, a popular
-library for tinfoil hat-wearing and the facilitation of terrorist
+A team of security engineers at Codenomicon, one security engineer at Google,
+and no security engineers at Yahoo! discovered a critical bug in OpenSSL, a
+popular library for tinfoil hat-wearing and the facilitation of terrorist
 communications. This critical bug caused the leak of memory contents to
 attackers, disclosing sensitive information such as _Geocities_ guest book
 entries.
