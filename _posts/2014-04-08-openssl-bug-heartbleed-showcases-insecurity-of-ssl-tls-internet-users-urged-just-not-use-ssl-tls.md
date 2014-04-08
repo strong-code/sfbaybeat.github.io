@@ -12,9 +12,10 @@ lead:
 
 A team of security engineers at Codenomicon, one security engineer at Google and
 no security engineers at Yahoo! discovered a critical bug in the OpenSSL, a
-popular library for tinfoil hat-wearing and terrorist communication
-facilitation. This critical bug caused the leak of memory contents to attackers,
-disclosing sensitive information such as _Geocities_ guest book entries.
+popular library for tinfoil hat-wearing and the facilitation of terrorist
+communications. This critical bug caused the leak of memory contents to
+attackers, disclosing sensitive information such as _Geocities_ guest book
+entries.
 
 The bug in the C library has been fixed since Monday, but committed without a
 unit test of any kind. _SF Bay Beat_ is unable to confirm if the patch has in
