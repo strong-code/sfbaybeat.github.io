@@ -18,7 +18,7 @@ disclosing sensitive information such as _Geocities_ guest book entries.
 
 The bug in the C library has been fixed since Monday, but committed without a
 unit test of any kind. _SF Bay Beat_ is unable to confirm if the patch has in
-fact closed the exploit or has created three more buffer overflow holes.
+fact closed the exploit or created three more buffer overflow holes.
 
 With the recent spate of SSL bugs with catchy names and single-use websites
 (such as [gotofail](https://gotofail.com/)), internet users are encouraged to
