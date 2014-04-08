@@ -30,6 +30,6 @@ hackers to write ridiculously hacky and non-production-ready exploit code.
 Security researchers are also investigating alternatives to the protocol, such
 as two-pass ROT-13.
 
-This move has been welcomed by internet bloggers, some of who had objected to
-Gmail's use of mandatory HTTPS — saying that it "goes too far" and "removed
-consumer choice".
+This move has been welcomed by internet bloggers, one of who objected to Gmail's
+use of mandatory HTTPS — saying that it "went too far" and "removed consumer
+choice".
