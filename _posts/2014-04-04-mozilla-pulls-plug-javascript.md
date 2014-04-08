@@ -5,7 +5,7 @@ date: 2014-04-04T07:05:25+0000
 dateline: Mountain View, CA
 lead:
     image: http://i.imgur.com/0NVAral.jpg
-    caption: Dramatization of the internet's feud with Mozilla.
+    caption: Dramatization of the Internet's feud with Mozilla.
 ---
 
 After JavaScript's almost twenty-year-long tenure as the web's one and only
