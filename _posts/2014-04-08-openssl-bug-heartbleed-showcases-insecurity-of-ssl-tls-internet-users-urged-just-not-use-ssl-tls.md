@@ -22,13 +22,12 @@ fact closed the exploit or created three more buffer overflow holes.
 
 With the recent spate of SSL bugs with catchy names and single-use websites
 (such as [gotofail](https://gotofail.com/)), internet users are encouraged to
-point fingers at the NSA and make use of
-[HTTPSNowhere](http://avengingsyndrome.github.io/HTTPSNoWhere/), a Chrome
-extension. This add-on alleviates both the effort required from system
-administrators to patch vulnerable software, and the effort required from
-hackers to write ridiculously hacky and non-production-ready exploit code.
-Security researchers are also investigating alternatives to the protocol, such
-as two-pass ROT-13.
+point fingers at the NSA and make use of the Chrome extension
+[HTTPSNowhere](http://avengingsyndrome.github.io/HTTPSNoWhere/). This add-on
+alleviates both the effort required from system administrators to patch
+vulnerable software, and the effort required from hackers to write ridiculously
+hacky and non-production-ready exploit code. Security researchers are also
+investigating alternatives to the protocol, such as two-pass ROT-13.
 
 This move has been welcomed by internet bloggers, one of who objected to Gmail's
 use of mandatory HTTPS — saying that it "went too far" and "removed consumer
