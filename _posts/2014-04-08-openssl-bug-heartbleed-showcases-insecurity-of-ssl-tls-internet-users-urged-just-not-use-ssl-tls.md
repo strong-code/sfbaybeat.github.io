@@ -32,4 +32,4 @@ investigating alternatives to the protocol, such as two-pass ROT-13.
 
 This move has been welcomed by internet bloggers, one of who objected to Gmail's
 use of mandatory HTTPS — saying that it "went too far" and "removed consumer
-choice".
+choice."
