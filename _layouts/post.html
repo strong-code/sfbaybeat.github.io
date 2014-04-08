@@ -26,7 +26,7 @@ layout: default
                 <figcaption>{{ page.lead.caption | markdownify | remove:"<p>" | remove:"</p>" }}</figcaption>
             </figure>
             {% endif %}
-            {% capture repl %}<p><span class="dateline" itemprop="dateline">{{ page.dateline }}</span>{% endcapture %}
+            {% capture repl %}<p><span class="dateline" itemprop="dateline">{{ page.dateline }}</span>—{% endcapture %}
             {{ content | replace_first: "<p>", repl }}
             <!-- AddThis Button BEGIN -->
             <div class="addthis_toolbox addthis_default_style ">
