@@ -12,7 +12,7 @@ Dropbox announced a series of new hires for its company leadership team on
 Wednesday. Among them is former Hewlett-Packard director Condoleezza Rice, who
 was appointed as Chief World Domination Officer.
 
-Dropbox President Drew Houston announced that Dr Rice would helping the company
+Dropbox President Drew Houston announced that Dr Rice would help the company
 with "expanding their global footprint," and help "navigate [privacy
 concerns]" — all said with a sinister smirk.
 
